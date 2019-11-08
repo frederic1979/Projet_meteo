@@ -1,0 +1,85 @@
+
+
+header>h1{
+    text-align: center;
+}    
+
+
+main
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+p,h2 {
+    display: flex;
+    justify-content: center;
+}
+
+ ul {
+    display: flex;
+    color :  	#6495ED;
+    font-size: 15px;
+    justify-content: space-between;
+    list-style: none;
+    align-content: center;
+    width: 68%;
+
+}
+
+section{
+    width: 70%;
+}
+
+
+table{
+    width: 600px;
+    border: solid;
+}
+
+
+/* main>tr 
+{
+    display: flex;
+    flex-direction: column;
+} */
+
+h2
+{
+font-size: 0.9em; 
+}
+
+
+
+@media screen and (max-width:640px){
+    header
+    {
+        width: 100%;
+        color: blue;
+    } 
+    nav {
+        
+       
+        color: black;
+        
+    }
+
+    ul {
+        height: 100px;
+        flex-direction: column;
+        
+    }
+
+}
